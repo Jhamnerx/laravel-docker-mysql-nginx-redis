@@ -1,2 +1,41 @@
 # laravel-docker-mysql-nginx-redis
+
 docker compose for laravel app production
+php artisan make:event nuevaActaCreada
+php artisan make:listener nuevaActaCreadaEmailListener --event=nuevaActaCreada
+php artisan make:listener nuevaActaCreadaAdminsListener --event=nuevaActaCreada
+
+#crear path para usar el comando laravel
+export PATH="~/.config/composer/vendor/bin:$PATH"
+
+sudo chown -R www:www public/
+chmod -R 777 public/
+
+#permisos luego de hacer un pull
+sudo chmod -Rf 0777 bootstrap/cache/
+sudo chmod -Rf 0777 storage/
+
+# colas
+
+php artisan queue:work
+php artisan queue:work --queue=mail
+php artisan queue:work --queue=database
+php artisan queue:work --queue=broadcast
+
+#iniciar contenedor
+docker-compose up -d --build
+
+#comandos
+docker-compose run --rm app composer install
+#install jetstream
+docker-compose run --rm app composer require laravel/jetstream
+
+#instalar livewire
+docker-compose run --rm app composer require livewire/livewire
+
+docker-compose run --rm app npm install
+docker-compose run --rm app npm run dev
+docker-compose run --rm app npm run build
+docker-compose run --rm artisan migrate
+docker-compose run --rm artisan migrate:fresh --seed
+docker-compose run --rm artisan storage:link
