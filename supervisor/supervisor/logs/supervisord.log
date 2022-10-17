@@ -1,0 +1,422 @@
+2022-09-06 01:59:23,197 INFO Set uid to user 1000 succeeded
+2022-09-06 01:59:23,207 INFO RPC interface 'supervisor' initialized
+2022-09-06 01:59:23,208 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-09-06 01:59:23,208 INFO RPC interface 'supervisor' initialized
+2022-09-06 01:59:23,209 INFO supervisord started with pid 7
+2022-09-06 01:59:24,211 INFO spawned: 'worker_00' with pid 8
+2022-09-06 01:59:24,213 INFO spawned: 'worker_01' with pid 9
+2022-09-06 01:59:25,616 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 01:59:25,617 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 14:54:46,732 INFO Set uid to user 1000 succeeded
+2022-09-06 14:54:47,037 INFO RPC interface 'supervisor' initialized
+2022-09-06 14:54:47,038 INFO supervisord started with pid 1
+2022-09-06 14:54:48,041 INFO spawned: 'worker_00' with pid 6
+2022-09-06 14:54:48,043 INFO spawned: 'worker_01' with pid 7
+2022-09-06 14:54:49,340 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 14:54:49,341 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:24:11,662 WARN received SIGQUIT indicating exit request
+2022-09-06 15:24:11,664 INFO waiting for worker_00, worker_01 to die
+2022-09-06 15:24:11,675 INFO stopped: worker_00 (terminated by SIGTERM)
+2022-09-06 15:24:11,675 INFO stopped: worker_01 (terminated by SIGTERM)
+2022-09-06 15:24:18,870 INFO Set uid to user 1000 succeeded
+2022-09-06 15:24:18,875 INFO RPC interface 'supervisor' initialized
+2022-09-06 15:24:18,876 INFO supervisord started with pid 1
+2022-09-06 15:24:19,879 INFO spawned: 'worker_00' with pid 7
+2022-09-06 15:24:19,883 INFO spawned: 'worker_01' with pid 8
+2022-09-06 15:24:19,889 INFO spawned: 'schedule' with pid 9
+2022-09-06 15:24:20,387 INFO exited: schedule (exit status 126; not expected)
+2022-09-06 15:24:21,432 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:24:21,432 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:24:21,434 INFO spawned: 'schedule' with pid 22
+2022-09-06 15:24:21,441 INFO exited: schedule (exit status 126; not expected)
+2022-09-06 15:24:23,445 INFO spawned: 'schedule' with pid 23
+2022-09-06 15:24:23,451 INFO exited: schedule (exit status 126; not expected)
+2022-09-06 15:24:26,457 INFO spawned: 'schedule' with pid 24
+2022-09-06 15:24:26,465 INFO exited: schedule (exit status 126; not expected)
+2022-09-06 15:24:27,467 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 15:25:01,505 WARN received SIGQUIT indicating exit request
+2022-09-06 15:25:01,505 INFO waiting for worker_00, worker_01 to die
+2022-09-06 15:25:06,796 INFO Set uid to user 1000 succeeded
+2022-09-06 15:25:07,103 INFO RPC interface 'supervisor' initialized
+2022-09-06 15:25:07,104 INFO supervisord started with pid 1
+2022-09-06 15:25:08,106 INFO spawned: 'worker_00' with pid 7
+2022-09-06 15:25:08,108 INFO spawned: 'worker_01' with pid 8
+2022-09-06 15:25:08,111 INFO spawned: 'schedule' with pid 9
+2022-09-06 15:25:08,171 INFO exited: schedule (exit status 1; not expected)
+2022-09-06 15:25:08,511 INFO reaped unknown pid 11 (exit status 0)
+2022-09-06 15:25:08,512 INFO reaped unknown pid 13 (exit status 0)
+2022-09-06 15:25:09,581 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:25:09,582 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:25:09,583 INFO spawned: 'schedule' with pid 30
+2022-09-06 15:25:09,598 INFO exited: schedule (exit status 1; not expected)
+2022-09-06 15:25:10,600 INFO reaped unknown pid 32 (exit status 0)
+2022-09-06 15:25:10,601 INFO reaped unknown pid 34 (exit status 0)
+2022-09-06 15:25:11,604 INFO spawned: 'schedule' with pid 39
+2022-09-06 15:25:11,618 INFO exited: schedule (exit status 1; not expected)
+2022-09-06 15:25:12,620 INFO reaped unknown pid 41 (exit status 0)
+2022-09-06 15:25:12,621 INFO reaped unknown pid 43 (exit status 0)
+2022-09-06 15:25:14,626 INFO spawned: 'schedule' with pid 48
+2022-09-06 15:25:14,640 INFO exited: schedule (exit status 1; not expected)
+2022-09-06 15:25:15,642 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 15:25:15,642 INFO reaped unknown pid 50 (exit status 0)
+2022-09-06 15:25:15,643 INFO reaped unknown pid 52 (exit status 0)
+2022-09-06 15:25:51,149 INFO Set uid to user 1000 succeeded
+2022-09-06 15:25:51,455 INFO RPC interface 'supervisor' initialized
+2022-09-06 15:25:51,456 INFO supervisord started with pid 1
+2022-09-06 15:25:52,457 INFO spawned: 'worker_00' with pid 7
+2022-09-06 15:25:52,459 INFO spawned: 'worker_01' with pid 8
+2022-09-06 15:25:52,461 INFO spawned: 'schedule' with pid 9
+2022-09-06 15:25:52,512 INFO exited: schedule (exit status 1; not expected)
+2022-09-06 15:25:52,726 INFO reaped unknown pid 11 (exit status 0)
+2022-09-06 15:25:52,727 INFO reaped unknown pid 13 (exit status 0)
+2022-09-06 15:25:53,807 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:25:53,807 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:25:53,809 INFO spawned: 'schedule' with pid 30
+2022-09-06 15:25:53,823 INFO exited: schedule (exit status 1; not expected)
+2022-09-06 15:25:54,825 INFO reaped unknown pid 32 (exit status 0)
+2022-09-06 15:25:54,825 INFO reaped unknown pid 34 (exit status 0)
+2022-09-06 15:25:55,828 INFO spawned: 'schedule' with pid 39
+2022-09-06 15:25:55,844 INFO exited: schedule (exit status 1; not expected)
+2022-09-06 15:25:56,846 INFO reaped unknown pid 41 (exit status 0)
+2022-09-06 15:25:56,846 INFO reaped unknown pid 43 (exit status 0)
+2022-09-06 15:25:58,851 INFO spawned: 'schedule' with pid 48
+2022-09-06 15:25:58,865 INFO exited: schedule (exit status 1; not expected)
+2022-09-06 15:25:58,866 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 15:25:59,868 INFO reaped unknown pid 50 (exit status 0)
+2022-09-06 15:25:59,868 INFO reaped unknown pid 52 (exit status 0)
+2022-09-06 15:34:36,183 INFO Set uid to user 1000 succeeded
+2022-09-06 15:34:36,490 INFO RPC interface 'supervisor' initialized
+2022-09-06 15:34:36,491 INFO supervisord started with pid 1
+2022-09-06 15:34:37,493 INFO spawned: 'worker_00' with pid 7
+2022-09-06 15:34:37,495 INFO spawned: 'worker_01' with pid 8
+2022-09-06 15:34:37,498 INFO spawned: 'schedule' with pid 9
+2022-09-06 15:34:37,778 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:34:38,844 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:34:38,844 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:34:38,847 INFO spawned: 'schedule' with pid 22
+2022-09-06 15:34:38,854 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:34:40,859 INFO spawned: 'schedule' with pid 23
+2022-09-06 15:34:41,868 INFO success: schedule entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:34:41,868 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:34:42,871 INFO spawned: 'schedule' with pid 24
+2022-09-06 15:34:43,880 INFO success: schedule entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:34:43,880 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:34:44,884 INFO spawned: 'schedule' with pid 25
+2022-09-06 15:34:45,892 INFO success: schedule entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:34:45,892 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:34:46,895 INFO spawned: 'schedule' with pid 26
+2022-09-06 15:34:46,900 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:34:47,904 INFO spawned: 'schedule' with pid 27
+2022-09-06 15:34:47,909 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:34:49,913 INFO spawned: 'schedule' with pid 28
+2022-09-06 15:34:49,922 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:34:52,928 INFO spawned: 'schedule' with pid 29
+2022-09-06 15:34:53,936 INFO success: schedule entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:34:53,937 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:34:54,941 INFO spawned: 'schedule' with pid 30
+2022-09-06 15:34:54,947 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:34:55,950 INFO spawned: 'schedule' with pid 31
+2022-09-06 15:34:55,957 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:34:57,962 INFO spawned: 'schedule' with pid 32
+2022-09-06 15:34:57,969 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:35:00,974 INFO spawned: 'schedule' with pid 33
+2022-09-06 15:35:00,983 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:35:01,985 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 15:36:00,052 INFO reaped unknown pid 43 (exit status 0)
+2022-09-06 15:36:00,052 INFO reaped unknown pid 45 (exit status 0)
+2022-09-06 15:36:10,065 WARN received SIGQUIT indicating exit request
+2022-09-06 15:36:10,065 INFO waiting for worker_00, worker_01 to die
+2022-09-06 15:36:15,138 INFO Set uid to user 1000 succeeded
+2022-09-06 15:36:15,442 INFO RPC interface 'supervisor' initialized
+2022-09-06 15:36:15,443 INFO supervisord started with pid 1
+2022-09-06 15:36:16,447 INFO spawned: 'worker_00' with pid 6
+2022-09-06 15:36:16,449 INFO spawned: 'worker_01' with pid 7
+2022-09-06 15:36:16,456 INFO spawned: 'schedule' with pid 8
+2022-09-06 15:36:16,735 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:36:17,777 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:36:17,777 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:36:17,778 INFO spawned: 'schedule' with pid 21
+2022-09-06 15:36:17,786 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:36:19,790 INFO spawned: 'schedule' with pid 22
+2022-09-06 15:36:20,798 INFO success: schedule entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:36:20,799 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:36:21,802 INFO spawned: 'schedule' with pid 23
+2022-09-06 15:36:21,812 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:36:22,816 INFO spawned: 'schedule' with pid 24
+2022-09-06 15:36:22,822 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:36:24,827 INFO spawned: 'schedule' with pid 25
+2022-09-06 15:36:24,833 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:36:27,839 INFO spawned: 'schedule' with pid 26
+2022-09-06 15:36:27,845 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:36:27,845 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 15:36:37,857 WARN received SIGQUIT indicating exit request
+2022-09-06 15:36:37,857 INFO waiting for worker_00, worker_01 to die
+2022-09-06 15:43:20,304 INFO Set uid to user 1000 succeeded
+2022-09-06 15:43:20,609 INFO RPC interface 'supervisor' initialized
+2022-09-06 15:43:20,611 INFO supervisord started with pid 1
+2022-09-06 15:43:21,613 INFO spawned: 'worker_00' with pid 7
+2022-09-06 15:43:21,615 INFO spawned: 'worker_01' with pid 8
+2022-09-06 15:43:21,617 INFO spawned: 'schedule' with pid 9
+2022-09-06 15:43:21,866 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:43:22,971 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:43:22,971 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:43:22,973 INFO spawned: 'schedule' with pid 22
+2022-09-06 15:43:22,981 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:43:24,985 INFO spawned: 'schedule' with pid 23
+2022-09-06 15:43:24,991 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:43:27,997 INFO spawned: 'schedule' with pid 24
+2022-09-06 15:43:28,004 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:43:29,006 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 15:46:57,554 INFO Set uid to user 1000 succeeded
+2022-09-06 15:46:57,861 INFO RPC interface 'supervisor' initialized
+2022-09-06 15:46:57,861 INFO supervisord started with pid 1
+2022-09-06 15:46:58,864 INFO spawned: 'worker_00' with pid 7
+2022-09-06 15:46:58,866 INFO spawned: 'worker_01' with pid 8
+2022-09-06 15:46:58,869 INFO spawned: 'schedule' with pid 9
+2022-09-06 15:46:58,887 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:47:00,294 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:47:00,294 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:47:00,296 INFO spawned: 'schedule' with pid 22
+2022-09-06 15:47:00,301 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:47:02,305 INFO spawned: 'schedule' with pid 23
+2022-09-06 15:47:02,311 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:47:05,316 INFO spawned: 'schedule' with pid 24
+2022-09-06 15:47:05,323 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:47:05,324 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 15:51:30,582 WARN received SIGQUIT indicating exit request
+2022-09-06 15:51:30,590 INFO waiting for worker_00, worker_01 to die
+2022-09-06 15:51:31,598 INFO stopped: worker_01 (terminated by SIGTERM)
+2022-09-06 15:51:31,599 INFO stopped: worker_00 (terminated by SIGTERM)
+2022-09-06 15:55:25,414 INFO Set uid to user 1000 succeeded
+2022-09-06 15:55:25,420 INFO RPC interface 'supervisor' initialized
+2022-09-06 15:55:25,420 INFO supervisord started with pid 1
+2022-09-06 15:55:26,422 INFO spawned: 'worker_00' with pid 7
+2022-09-06 15:55:26,424 INFO spawned: 'worker_01' with pid 8
+2022-09-06 15:55:26,426 INFO spawned: 'schedule' with pid 9
+2022-09-06 15:55:26,442 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:55:27,793 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:55:27,793 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:55:27,795 INFO spawned: 'schedule' with pid 22
+2022-09-06 15:55:27,801 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:55:29,805 INFO spawned: 'schedule' with pid 23
+2022-09-06 15:55:29,813 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:55:32,818 INFO spawned: 'schedule' with pid 24
+2022-09-06 15:55:33,826 INFO success: schedule entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 15:55:33,826 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:55:34,829 INFO spawned: 'schedule' with pid 25
+2022-09-06 15:55:34,835 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:55:35,838 INFO spawned: 'schedule' with pid 26
+2022-09-06 15:55:35,844 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:55:37,848 INFO spawned: 'schedule' with pid 27
+2022-09-06 15:55:37,854 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:55:40,859 INFO spawned: 'schedule' with pid 28
+2022-09-06 15:55:40,865 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 15:55:40,865 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 16:00:10,164 WARN received SIGQUIT indicating exit request
+2022-09-06 16:00:10,164 INFO waiting for worker_00, worker_01 to die
+2022-09-06 16:00:11,170 INFO stopped: worker_01 (terminated by SIGTERM)
+2022-09-06 16:00:12,172 INFO stopped: worker_00 (terminated by SIGTERM)
+2022-09-06 16:00:14,799 INFO Set uid to user 1000 succeeded
+2022-09-06 16:00:14,805 INFO RPC interface 'supervisor' initialized
+2022-09-06 16:00:14,805 INFO supervisord started with pid 1
+2022-09-06 16:00:15,808 INFO spawned: 'worker_00' with pid 7
+2022-09-06 16:00:15,810 INFO spawned: 'worker_01' with pid 8
+2022-09-06 16:00:15,812 INFO spawned: 'schedule' with pid 9
+2022-09-06 16:00:16,061 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 16:00:17,085 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 16:00:17,086 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 16:00:17,088 INFO spawned: 'schedule' with pid 22
+2022-09-06 16:00:18,095 INFO success: schedule entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 16:00:18,096 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 16:00:19,099 INFO spawned: 'schedule' with pid 23
+2022-09-06 16:00:19,106 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 16:00:20,109 INFO spawned: 'schedule' with pid 24
+2022-09-06 16:00:20,115 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 16:00:22,120 INFO spawned: 'schedule' with pid 25
+2022-09-06 16:00:22,127 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 16:00:25,133 INFO spawned: 'schedule' with pid 26
+2022-09-06 16:00:25,139 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 16:00:25,140 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 16:08:13,656 WARN received SIGQUIT indicating exit request
+2022-09-06 16:08:13,656 INFO waiting for worker_00, worker_01 to die
+2022-09-06 16:11:08,769 INFO Set uid to user 1000 succeeded
+2022-09-06 16:11:09,076 INFO RPC interface 'supervisor' initialized
+2022-09-06 16:11:09,077 INFO supervisord started with pid 1
+2022-09-06 16:11:10,079 INFO spawned: 'worker_00' with pid 7
+2022-09-06 16:11:10,082 INFO spawned: 'worker_01' with pid 8
+2022-09-06 16:11:10,086 INFO spawned: 'schedule' with pid 9
+2022-09-06 16:11:10,108 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 16:11:11,452 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 16:11:11,452 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 16:11:11,454 INFO spawned: 'schedule' with pid 22
+2022-09-06 16:11:11,460 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 16:11:13,464 INFO spawned: 'schedule' with pid 23
+2022-09-06 16:11:13,470 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 16:11:16,476 INFO spawned: 'schedule' with pid 24
+2022-09-06 16:11:16,484 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 16:11:16,485 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 16:11:53,479 WARN received SIGQUIT indicating exit request
+2022-09-06 16:11:53,479 INFO waiting for worker_00, worker_01 to die
+2022-09-06 16:11:53,501 INFO exited: worker_00 (exit status 0; expected)
+2022-09-06 16:11:54,503 INFO stopped: worker_01 (terminated by SIGTERM)
+2022-09-06 16:11:57,104 INFO Set uid to user 1000 succeeded
+2022-09-06 16:11:57,109 INFO RPC interface 'supervisor' initialized
+2022-09-06 16:11:57,109 INFO supervisord started with pid 1
+2022-09-06 16:11:58,111 INFO spawned: 'worker_00' with pid 7
+2022-09-06 16:11:58,114 INFO spawned: 'worker_01' with pid 8
+2022-09-06 16:11:58,117 INFO spawned: 'schedule' with pid 9
+2022-09-06 16:11:58,422 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 16:11:59,538 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 16:11:59,538 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 16:11:59,539 INFO spawned: 'schedule' with pid 22
+2022-09-06 16:11:59,547 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 16:12:01,551 INFO spawned: 'schedule' with pid 23
+2022-09-06 16:12:01,557 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 16:12:04,562 INFO spawned: 'schedule' with pid 24
+2022-09-06 16:12:04,571 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 16:12:04,572 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 16:50:29,204 WARN received SIGQUIT indicating exit request
+2022-09-06 16:50:29,204 INFO waiting for worker_00, worker_01 to die
+2022-09-06 17:05:18,424 INFO Set uid to user 1000 succeeded
+2022-09-06 17:05:18,733 INFO RPC interface 'supervisor' initialized
+2022-09-06 17:05:18,734 INFO supervisord started with pid 1
+2022-09-06 17:05:19,736 INFO spawned: 'worker_00' with pid 7
+2022-09-06 17:05:19,738 INFO spawned: 'worker_01' with pid 8
+2022-09-06 17:05:19,740 INFO spawned: 'schedule' with pid 9
+2022-09-06 17:05:19,759 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:05:21,026 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:05:21,027 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:05:21,028 INFO spawned: 'schedule' with pid 22
+2022-09-06 17:05:21,034 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:05:23,038 INFO spawned: 'schedule' with pid 23
+2022-09-06 17:05:23,047 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:05:26,052 INFO spawned: 'schedule' with pid 24
+2022-09-06 17:05:26,060 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:05:26,061 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 17:14:54,687 WARN received SIGQUIT indicating exit request
+2022-09-06 17:14:54,688 INFO waiting for worker_00, worker_01 to die
+2022-09-06 17:14:55,471 INFO stopped: worker_00 (terminated by SIGTERM)
+2022-09-06 17:14:55,472 INFO stopped: worker_01 (terminated by SIGTERM)
+2022-09-06 17:15:05,485 INFO Set uid to user 1000 succeeded
+2022-09-06 17:15:05,489 INFO RPC interface 'supervisor' initialized
+2022-09-06 17:15:05,489 INFO supervisord started with pid 1
+2022-09-06 17:15:06,493 INFO spawned: 'worker_00' with pid 6
+2022-09-06 17:15:06,495 INFO spawned: 'worker_01' with pid 7
+2022-09-06 17:15:06,497 INFO spawned: 'schedule' with pid 8
+2022-09-06 17:15:06,787 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:15:07,844 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:15:07,844 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:15:07,846 INFO spawned: 'schedule' with pid 21
+2022-09-06 17:15:07,853 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:15:09,856 INFO spawned: 'schedule' with pid 22
+2022-09-06 17:15:09,866 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:15:12,871 INFO spawned: 'schedule' with pid 23
+2022-09-06 17:15:12,879 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:15:13,881 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 17:15:46,917 WARN received SIGQUIT indicating exit request
+2022-09-06 17:15:46,918 INFO waiting for worker_00, worker_01 to die
+2022-09-06 17:15:58,782 INFO Set uid to user 1000 succeeded
+2022-09-06 17:15:59,088 INFO RPC interface 'supervisor' initialized
+2022-09-06 17:15:59,089 INFO supervisord started with pid 1
+2022-09-06 17:16:00,093 INFO spawned: 'worker_00' with pid 6
+2022-09-06 17:16:00,095 INFO spawned: 'worker_01' with pid 7
+2022-09-06 17:16:00,097 INFO spawned: 'schedule' with pid 8
+2022-09-06 17:16:00,363 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:16:01,428 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:16:01,428 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:16:01,429 INFO spawned: 'schedule' with pid 21
+2022-09-06 17:16:01,435 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:16:03,440 INFO spawned: 'schedule' with pid 22
+2022-09-06 17:16:03,448 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:16:06,453 INFO spawned: 'schedule' with pid 23
+2022-09-06 17:16:06,461 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:16:07,462 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 17:17:16,536 WARN received SIGQUIT indicating exit request
+2022-09-06 17:17:16,537 INFO waiting for worker_00, worker_01 to die
+2022-09-06 17:17:22,645 INFO Set uid to user 1000 succeeded
+2022-09-06 17:17:22,951 INFO RPC interface 'supervisor' initialized
+2022-09-06 17:17:22,952 INFO supervisord started with pid 1
+2022-09-06 17:17:23,955 INFO spawned: 'worker_00' with pid 6
+2022-09-06 17:17:23,958 INFO spawned: 'worker_01' with pid 7
+2022-09-06 17:17:23,962 INFO spawned: 'schedule' with pid 8
+2022-09-06 17:17:23,983 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:17:25,484 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:17:25,484 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:17:25,485 INFO spawned: 'schedule' with pid 21
+2022-09-06 17:17:25,491 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:17:27,495 INFO spawned: 'schedule' with pid 22
+2022-09-06 17:17:28,468 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:17:28,496 INFO exited: worker_00 (exit status 0; expected)
+2022-09-06 17:17:29,500 INFO spawned: 'worker_00' with pid 23
+2022-09-06 17:17:29,501 INFO exited: worker_01 (exit status 0; expected)
+2022-09-06 17:17:29,807 INFO spawned: 'worker_01' with pid 30
+2022-09-06 17:17:31,098 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:17:31,098 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:17:32,101 INFO spawned: 'schedule' with pid 37
+2022-09-06 17:17:32,111 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:17:32,112 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 17:17:34,112 INFO exited: worker_00 (exit status 0; expected)
+2022-09-06 17:17:35,116 INFO spawned: 'worker_00' with pid 38
+2022-09-06 17:17:35,116 INFO exited: worker_01 (exit status 0; expected)
+2022-09-06 17:17:35,363 INFO spawned: 'worker_01' with pid 45
+2022-09-06 17:17:36,630 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:17:36,630 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:17:39,649 INFO exited: worker_00 (exit status 0; expected)
+2022-09-06 17:17:40,653 INFO spawned: 'worker_00' with pid 52
+2022-09-06 17:17:40,654 INFO exited: worker_01 (exit status 0; expected)
+2022-09-06 17:17:41,017 INFO spawned: 'worker_01' with pid 59
+2022-09-06 17:17:42,335 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:17:42,335 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:17:46,351 INFO exited: worker_01 (exit status 0; expected)
+2022-09-06 17:17:47,354 INFO spawned: 'worker_01' with pid 66
+2022-09-06 17:17:48,643 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:17:52,664 INFO exited: worker_01 (exit status 0; expected)
+2022-09-06 17:17:53,668 INFO spawned: 'worker_01' with pid 73
+2022-09-06 17:17:53,668 WARN received SIGQUIT indicating exit request
+2022-09-06 17:17:53,668 INFO waiting for worker_00, worker_01 to die
+2022-09-06 17:18:01,824 INFO Set uid to user 1000 succeeded
+2022-09-06 17:18:02,129 INFO RPC interface 'supervisor' initialized
+2022-09-06 17:18:02,130 INFO supervisord started with pid 1
+2022-09-06 17:18:03,133 INFO spawned: 'worker_00' with pid 7
+2022-09-06 17:18:03,135 INFO spawned: 'worker_01' with pid 8
+2022-09-06 17:18:03,137 INFO spawned: 'schedule' with pid 9
+2022-09-06 17:18:03,429 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:18:04,468 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:18:04,468 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:18:04,470 INFO spawned: 'schedule' with pid 22
+2022-09-06 17:18:05,480 INFO success: schedule entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:18:05,481 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:18:06,484 INFO spawned: 'schedule' with pid 23
+2022-09-06 17:18:06,490 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:18:07,494 INFO spawned: 'schedule' with pid 24
+2022-09-06 17:18:07,501 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:18:09,505 INFO spawned: 'schedule' with pid 25
+2022-09-06 17:18:09,511 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:18:12,516 INFO spawned: 'schedule' with pid 26
+2022-09-06 17:18:12,523 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:18:13,525 INFO gave up: schedule entered FATAL state, too many start retries too quickly
+2022-09-06 17:34:03,570 WARN received SIGQUIT indicating exit request
+2022-09-06 17:34:03,571 INFO waiting for worker_00, worker_01 to die
+2022-09-06 17:34:37,950 INFO Set uid to user 1000 succeeded
+2022-09-06 17:34:38,256 INFO RPC interface 'supervisor' initialized
+2022-09-06 17:34:38,257 INFO supervisord started with pid 1
+2022-09-06 17:34:39,260 INFO spawned: 'worker_00' with pid 7
+2022-09-06 17:34:39,262 INFO spawned: 'worker_01' with pid 8
+2022-09-06 17:34:39,270 INFO spawned: 'schedule' with pid 9
+2022-09-06 17:34:39,526 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:34:40,533 INFO success: worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:34:40,533 INFO success: worker_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:34:40,535 INFO spawned: 'schedule' with pid 22
+2022-09-06 17:34:40,541 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:34:42,547 INFO spawned: 'schedule' with pid 23
+2022-09-06 17:34:43,557 INFO success: schedule entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-09-06 17:34:43,558 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:34:44,561 INFO spawned: 'schedule' with pid 24
+2022-09-06 17:34:44,567 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:34:45,569 INFO spawned: 'schedule' with pid 25
+2022-09-06 17:34:45,575 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:34:47,579 INFO spawned: 'schedule' with pid 26
+2022-09-06 17:34:47,585 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:34:50,590 INFO spawned: 'schedule' with pid 27
+2022-09-06 17:34:50,597 INFO exited: schedule (exit status 2; not expected)
+2022-09-06 17:34:51,598 INFO gave up: schedule entered FATAL state, too many start retries too quickly
