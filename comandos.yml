@@ -29,6 +29,9 @@ docker-compose run --rm app composer install
   #install jetstream
 docker-compose run --rm app composer require laravel/jetstream
 
+#instalar redis
+docker-compose run --rm app composer require predis/predis
+
   #instalar livewire 
 docker-compose run --rm app composer require livewire/livewire
 
@@ -39,3 +42,13 @@ docker-compose run --rm app npm run build
 docker-compose run --rm artisan migrate
 docker-compose run --rm artisan migrate:fresh --seed
 docker-compose run --rm artisan storage:link
+
+
+#certboot
+
+#test
+docker-compose run --rm  certbot certonly --webroot --webroot-path /var/www/certbot/ --dry-run -d prueba.talentustechnology.com
+#generate ssl cert
+docker-compose run --rm  certbot certonly --webroot --webroot-path /var/www/certbot/ -d prueba.talentustechnology.com
+
+docker compose run --rm certbot renew

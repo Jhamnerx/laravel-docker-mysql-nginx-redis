@@ -48,6 +48,14 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 #RUN docker-php-ext-install gd
 RUN docker-php-ext-configure gd --enable-gd --with-freetype=/usr/include/ --with-jpeg=/usr/include/
 
+
+# INSTALL SOAP EXT ...
+
+RUN apt-get update && \
+    apt-get install -y libxml2-dev
+RUN docker-php-ext-install soap && docker-php-ext-enable soap
+
+
 # install all the dependencies and enable PHP modules
 RUN apt-get update && apt-get upgrade -y && apt-get install -y \
       procps \
